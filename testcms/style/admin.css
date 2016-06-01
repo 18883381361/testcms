@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+body,form,h1,h2,h3,ul,ol,li,dl,dt,dd,p{
+	padding:0;
+	margin:0;
+}
+body{
+	background:white;
+	font-size:12px;
+}
+ul,ol{
+	list-style-type:none;
+}
+#top{
+	background:url(../images/admin_top_bg.gif);
+}
+#top h1{
+	width:150px;
+	height:80px;
+	font-size:12px;
+	background:url(../images/logosmall.png) no-repeat;
+	text-indent:-9999px;
+	float:left;
+}
+#top ul {
+	float:left;
+	padding:47px 0 0 10px;
+}
+#top ul li {
+	padding:0 0 0 5px;
+	float:left;
+}
+#top ul li a {
+	width:58px;
+	height:33px;
+	line-height:33px;
+	text-align:center;
+	display:block;
+	background:url(../images/li_bg.png) no-repeat left bottom;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#fff;
+}
+#top ul li a.selected{
+	background-position:right bottom;
+	color:#3b6ea5;
+}
+#top p{
+	float:right;
+	margin:40px 20px 0 0;
+	color:#fff;
+	font-size:14px;	
+}
+#top a{
+	color:#fff;
+	text-decoration:none;
+}
+#top a:hover{
+	text-decoration:underline;
+}
+#sidebar {
+	background:#f7fbfc url(../images/sidebar_right.png) repeat-y right;
+}
+#sidebar dl{
+	margin:30px;
+}
+#sidebar dl dt{
+	font-size:14px;
+	color:#3b6ea5;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	padding:5px 0;
+	margin:5px 0;
+}
+#siderbar dl dd{
+	height:22px;
+	line-height:22px;
+}
+#sidebar dl dd a {
+	color:#333;
+	text-decoration:none;
+}
+#sidebar dl dd a:hover {
+	text-decoration:underline;
+}
+#main p{
+	margin:15px;
+}
+#main p strong{
+	color:green;
+}
+#main table{
+	text-align:center;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#main table table {
+	width:100%;
+	text-align:left;
+}
+#main table.cke_dialog {
+	width:auto;
+}
+#main table tr th{
+	background:#eef3f7;
+}
+#main table tr td{
+	border-bottom:1px solid #d5dfe8;
+}
+#main table tr td input:hover{
+	cursor:pointer;
+}
+#main table.content tr td{
+	text-align:left;
+	font-size:12px;
+	padding-left:5px;
+}
+#main table.content tr td input.text{
+	width:440px;
+	height:20px;
+	margin:5px auto;
+}
+#main table.content tr td textarea{
+	width:440px;
+	margin:5px auto;
+}
+#main table.content tr td select optgroup{
+	font-style:normal;
+}
+#main table tr td a{
+	text-decoration:none;
+	color:#360;
+}
+#main table tr td a:hover{
+	text-decoration:underline;
+}
+#main table tr:hover{
+	background:orange;
+}
+#main table.content tr:hover{
+	background:none;
+}
+
+#main table.cke_dialog tr {
+	background:none;
+}
+#main table tr td input.text{
+	width:30px;
+	text-align:center;
+}
+#main p.add{
+	text-align:center;
+	font-size:16px;
+}
+#main p.add a{
+	text-decoration:none;
+	color:#360;
+}
+#main p.add a:hover{
+	text-decoration:underline;
+}
+#main form dl{
+	margin:20px;
+}
+#main form dl dd{
+	margin:10px;
+}
+#main form dl dd input.submit{
+	cursor:pointer;
+}
+#main form dl dd input.text{
+	width:190px;
+}
+#main form table tr td input.text{
+	width:300px;
+}
+#main ol{
+	height:30px;
+	padding:0 0 8px 65px;
+}
+#main ol li{
+	float:left;
+	padding:5px;	
+}
+#main ol li a{
+	text-decoration:none;
+	display:block;	
+	padding:6px;
+	color:#333;
+}
+#main ol li a:hover {
+	background:#eee;
+}
+#main ol li a.selected{	
+	background:#3b6ea5;
+	color:#fff;	
+}
+#main #page p{	
+	text-align:center;	
+}
+#main #page p a{
+	color:green;
+	text-decoration:none;
+	font-size:14px;
+	background:#fff;
+	border:1px solid #d8d1d1;
+	padding:2px 7px;
+	margin:5px;	
+}
+#main #page p a.pageList{
+	color:white;
+	text-decoration:none;
+	font-size:14px;
+	background:#2d2d2d;
+	border:1px solid #d8d1d1;
+	padding:2px 7px;
+	margin:5px;
+}
+#main #page p a:hover{
+	text-decoration:underline;
+	border:1px solid blue;
+}
+#adminLogin form{
+	width:350px;
+	margin:100px auto;
+}
+#adminLogin form fieldset legend{
+	font-size:14px;
+	margin:5px auto;
+}
+#adminLogin form fieldset label{
+	display:block;
+	margin:10px auto;
+	position:relative;
+}
+#adminLogin form fieldset label input.text{
+	width:230px;
+}
+#adminLogin form fieldset label input.code{
+	width:100px;
+}
+#adminLogin form fieldset label img{
+	position:absolute;
+	top:-2px;
+	left:150px;
+}
+#adminLogin form fieldset input.submit{
+	margin:0 0 0 120px;
+}

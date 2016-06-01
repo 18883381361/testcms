@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+#reg{
+	margin:10px auto;
+}
+#reg h2{
+	text-align:center;
+}
+#reg h3{
+	margin:10px;
+	text-align:center;
+}
+#reg div{
+	margin:10px;
+}
+#reg div a{
+	text-decoration:none;
+	color:green;
+}
+#reg div a:hover{
+	text-decoration:underline;
+}
+#reg form{
+	border:1px solid #ccc;
+	padding:15px 0;
+}
+#reg form dl{
+	padding-left:350px;
+}
+#reg form dl dd{
+	padding:5px 0;
+}
+#reg form dl dd span.red{
+	color:red;
+}
+#reg form dl dd img:hover{
+	cursor:pointer;
+}
+#reg form dl dd input.submit{
+	margin:0 0 0 100px;
+}
